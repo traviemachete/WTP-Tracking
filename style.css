@@ -1,0 +1,47 @@
+#map {
+  height: 90vh;
+  width: 100%;
+}
+
+#filterPanel {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  z-index: 1000;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  width: 240px;
+  max-width: 90vw;
+  display: none;
+}
+
+#filterPanel select,
+#filterPanel input {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 4px;
+}
+
+#filterPanel button {
+  width: 100%;
+}
+
+#toggleFilterBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1100;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #0078D7;
+  color: white;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
